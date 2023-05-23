@@ -3,7 +3,6 @@ package VKS_18;
 import java.util.HashMap;
 
 public class Solution {
-
     public int romanToInt(String str) {
         HashMap<Character,Integer> roman = new HashMap<>();
         roman.put('I',1);
@@ -24,4 +23,5 @@ public class Solution {
         }
         return res;
     }
+
 }
